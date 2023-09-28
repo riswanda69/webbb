@@ -1,0 +1,21 @@
+/* style.css */
+.mahasiswa-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.mahasiswa-table th, .mahasiswa-table td {
+    background-color: gold;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.mahasiswa-table th {
+    text-align: center;
+}
+
+/* Opsi tambahan: Gaya untuk baris genap */
+.mahasiswa-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
